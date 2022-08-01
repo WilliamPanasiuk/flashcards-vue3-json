@@ -1,0 +1,33 @@
+.table-flashcards {
+  width: 100%;
+  margin: 20px 0;  
+  font-size:.8rem;
+  th{
+    font-size:.7rem;
+  }
+  th, td{
+    vertical-align:middle;
+    text-align: center !important;
+  }
+  &__id{
+    @include from(768px) {
+      width:30px
+    }
+  }
+  &__input{
+    @include from(768px) {
+      width:200px
+    }
+    @include from(1200px) {
+      width:300px
+    }
+  }
+  &__marks{
+    @include from(768px) {
+      width:100px
+    }
+  }
+  &__ui{
+    text-align: right !important;
+  }
+}

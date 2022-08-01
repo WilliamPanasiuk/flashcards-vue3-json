@@ -1,0 +1,22 @@
+version: '3'
+services:
+  vue-ui:  
+    image: node:12.17-slim
+    working_dir: "/var/www/app"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3005
+    ports:
+      - "3000:3005"
+    volumes:
+      - ./vue-app:/var/www/app
+    command: bash -c "npm install && npm run serve"
+
+  json-server:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 3000 -w db.json
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./vue-app/data:/data
+    restart: always

@@ -1,0 +1,46 @@
+{
+  "flashcards": [
+    {
+      "id": 2,
+      "front": "1",
+      "back": "one",
+      "created_at": "2022-07-31T22:00:00.000Z",
+      "updated_at": "2022-08-01T22:55:05.188Z",
+      "no_repetition": 1,
+      "ok_in_row": 1,
+      "no_repetition_wrong": 0,
+      "no_repetition_average": 0,
+      "no_repetition_good": 1,
+      "repeat_date": "2022-08-03T22:00:00.000Z",
+      "is_remembered": false
+    },
+    {
+      "id": 3,
+      "front": "3",
+      "back": "three",
+      "created_at": "2022-08-01T22:00:00.000Z",
+      "updated_at": "2022-08-01T22:54:53.071Z",
+      "no_repetition": 4,
+      "ok_in_row": 1,
+      "no_repetition_wrong": 3,
+      "no_repetition_average": 0,
+      "no_repetition_good": 1,
+      "repeat_date": "2022-08-04T22:00:00.000Z",
+      "is_remembered": false
+    },
+    {
+      "id": 4,
+      "front": "2",
+      "back": "two",
+      "created_at": "2022-08-01T22:00:00.000Z",
+      "updated_at": "2022-08-01T22:54:54.756Z",
+      "no_repetition": 0,
+      "ok_in_row": 0,
+      "no_repetition_wrong": 0,
+      "no_repetition_average": 0,
+      "no_repetition_good": 0,
+      "repeat_date": "2022-08-01T22:00:00.000Z",
+      "is_remembered": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2rem 0;
+
+  &__header-title{
+    justify-content: space-between;
+  }
+
+  &__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    height: 100%;
+    min-height: 200px;
+  }
+}
